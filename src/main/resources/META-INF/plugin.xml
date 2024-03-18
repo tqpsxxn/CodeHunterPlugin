@@ -15,4 +15,10 @@
     <applicationListeners>
         <listener class="com.github.lfy246.excepbert.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+    <actions>
+        <action id="CodeHunter" class="action.CodeHunter" text="CodeHunter异常识别处理"
+                description="CodeHunter异常识别处理">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
