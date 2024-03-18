@@ -25,7 +25,7 @@ repositories {
 dependencies {
     implementation("org.springframework:spring-web:5.1.13.RELEASE")
     implementation("org.springframework:spring-core:5.1.13.RELEASE")
-    implementation("org.springframework:spring-beans:5.1.13.RELEASE")
+    implementation("org.springframework:spring-beans:6.1.5")
 
 }
 
