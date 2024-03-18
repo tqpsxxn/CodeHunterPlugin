@@ -24,7 +24,7 @@ repositories {
 // Dependencies are managed with Gradle version catalog - read more: https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
     implementation("org.springframework:spring-web:5.1.13.RELEASE")
-    implementation("org.springframework:spring-core:5.1.13.RELEASE")
+    implementation("org.springframework:spring-core:6.1.5")
     implementation("org.springframework:spring-beans:5.1.13.RELEASE")
 
 }
